@@ -85,7 +85,7 @@ export const sendResetPasswordEmail = async (email, token) => {
     style="max-width: 400px; margin: 0 auto; padding: 20px; background-color: #f5f5f5; border-radius: 10px; text-align: center;">
     <h1 style="color: #333;">Reset your password</h1>
     <p style="margin-top: 20px; font-size: 16px;">Click the link below to reset your password:</p>
-    <a href="http://localhost:${config.port}/updatepassword?token=${token}" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #000000; color: #fff; text-decoration: none; border-radius: 5px;">Reset Password</a>
+    <a href="https://becoderhousefinalproject-production.up.railway.app/updatepassword?token=${token}" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #000000; color: #fff; text-decoration: none; border-radius: 5px;">Reset Password</a>
     <p style="margin-top: 20px; font-size: 14px; color: #666;">Please note that you cannot use the same password you previously had to reset your password.</p>
     <p style="font-size: 14px; color: #666;">This password reset link is valid for 1 hour.</p>
   </div>

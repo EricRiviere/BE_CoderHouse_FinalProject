@@ -1,7 +1,9 @@
 import { expect } from "chai";
 import supertest from "supertest";
 
-const requester = supertest("http://localhost:8080");
+const requester = supertest(
+  "https://becoderhousefinalproject-production.up.railway.app/"
+);
 
 describe("Advanced test for JasonWebToken", () => {
   let cookie;
